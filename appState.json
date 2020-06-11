@@ -1,0 +1,108 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8f11e90a-8752-4b5b-91f4-17813727a327": {
+        "id": "8f11e90a-8752-4b5b-91f4-17813727a327",
+        "parent": null,
+        "name": "testInduuinSingaaaa.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testInduuinSingaaaa.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testInduuinSingaaaa"
+        },
+        "triggers": [
+          {
+            "resourceName": "httpApigapSoutheast1testtInduu",
+            "config": {
+              "defaultRoute": false,
+              "method": "ANY",
+              "route": "/o"
+            }
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "8f11e90a-8752-4b5b-91f4-17813727a327"
+    ],
+    "currentFileId": "8f11e90a-8752-4b5b-91f4-17813727a327",
+    "resources": {
+      "httpApigapSoutheast1testtInduu": {
+        "name": "httpApigapSoutheast1testtInduu",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-1",
+          "apiType": 2,
+          "mode": 0,
+          "apiName": "testtInduu",
+          "stageName": "default"
+        }
+      },
+      "s3induniltrigger": {
+        "name": "s3induniltrigger",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "ap-southeast-1",
+            "name": "indunil.trigger"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testInduuinSingaaaa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1591857638712
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testinduuinsingaaaa",
+      "url": "https://github.com/Indunil1992/testinduuinsingaaaa"
+    }
+  }
+}
